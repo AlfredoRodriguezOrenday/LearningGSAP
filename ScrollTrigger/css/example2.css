@@ -1,0 +1,57 @@
+/* Import Fonts */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+/* Import Fonts */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    color: #333333;
+    font-family: 'Robot', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contenedor__tiutlo--principal{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.contenedor__imagenes{
+    width: 100%;
+    height: 1000px;
+    background-color: #fff;
+    position: relative;
+}
+
+.imagen_carro1{
+    position: absolute;
+    width: 250px;
+    top: 0px;
+    left: 20px;
+}
+
+.imagen_carro2{
+    position: absolute;
+    width: 250px;
+    top: 400px;
+    left: 20px;
+}
+
+.meta{
+    position: absolute;
+    width: 250px;
+    margin-top: 180px;
+    margin-left: 1100px;
+}
