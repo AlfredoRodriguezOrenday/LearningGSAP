@@ -12,11 +12,13 @@ const planeta4 = document.querySelector('.planeta4');
 
 const planeta5 = document.querySelector('.planeta5');
 
+const end = document.querySelector('.end');
+
 let tl = gsap.timeline({
     scrollTrigger:{
         trigger: '.contenedor__animacion',
         pin: true,
-        markers: true,
+        //markers: true,
         start:'top top',
         end: '100% 100%',
         scrub: 'ture'
@@ -57,7 +59,6 @@ tl.to(nave,{ x:'35vw', y:280, duration: 8})
 
 tl.to(planeta4,{ x: -100, opacity:0, scale:0.3, duration: 4}, '=-2.0')
 
-
 tl.to(planeta5,{ y:'-30vw', opacity:1, scale:1.2, duration:8})
 
 tl.to(nave,{ rotate: 265, duration: 4})
@@ -68,5 +69,14 @@ tl.to(nave,{ rotate: 180,  duration: 8})
 
 tl.to(planeta5,{ y: '-100vw', opacity:0, scale:0.3, duration: 8})
 
-tl.to(nave,{y:'0vw', duration: 8})
+tl.to(nave,{y:'0vw', duration: 2})
 
+tl.to(end , { y:'-30vw', opacity:1, scale:1.2, duration:8})
+
+tl.to(nave,{ rotate: 360,  duration: 8})
+
+tl.to(nave,{y:'15vw', scale: 0.8, duration: 4})
+
+tl.to(planeta3,{ y: '45vw', x: '-139vw', scale: 0.3, opacity:0, duration: 2})
+
+tl.to(planeta3,{ y: '37vw', scale: 1.8, opacity:1, duration: 4})
