@@ -1,0 +1,92 @@
+/* Import Fonts */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+/* Import Fonts */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    height: 800vh; /*The animation will be larger because we set a 8 sizes screen*/
+    text-align: center;
+    overflow: hidden;
+    background-image: linear-gradient(
+        179.2deg,
+        rgba(34, 34, 34, 1)0%,
+        rgba(8, 0, 153, 1) 59.7%,
+        rgba(118,6,166,1) 83.4%,
+        rgba(233, 0, 64, 0.58)100.1%
+    ) 
+}
+
+h1{
+    color: #fff;
+    padding-top: 50px;
+    font-family: 'Roboto',  sans-serif;
+    font-size: 3rem;
+}
+
+.contenedor__animacion{
+    position: relative;
+    height: 785vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nave{
+    position: absolute;
+    top:100px;
+    width: 350px;
+    height: 350px;
+    transform: rotate(180deg);
+}
+
+.planeta{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    opacity: 0; /*Vanish the objects with the value 0*/
+}
+
+.planeta1{
+    opacity: 0;
+    right:15%;
+    top: 100vh;
+}
+
+.planeta2{
+    opacity: 0;
+    top: 100vh;
+    left: 10%;
+}
+
+.planeta3{
+    opacity: 0;
+    top: 60px;
+    width: 200px;
+    height: 200px;
+    right: -100vw;
+
+}
+
+.planeta4{
+    opacity: 0;
+    top: 5vh;
+    width: 350px;
+    height: 350px;
+    left: -100vh;
+}
+
+.planeta5{
+    opacity: 0;
+    top:100vh;
+    left: 10vh
+}
