@@ -60,5 +60,25 @@
 }
 
 @media (max-width: 600px){
-
+    
+    .info{
+        height: 100px;
+        font-size: 0.8em;
+    }
+    
+    .card_1{
+        
+        left:26%;
+        top:55%;
+    }
+    
+    .card_2{
+        left:26%;
+        top:40%;
+    }
+    
+    .card_3{
+        left:26%;
+        top:70%;
+    }
 }
