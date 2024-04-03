@@ -1,3 +1,14 @@
+let mm = gsap.matchMedia();
+
+mm.add({
+    isMobile: "(max-width: 412px)",
+    isDesktop: "(min-width: 703px)"
+}, (context) =>{
+    let {isMobile, isDesktop} = context.conditions;
+    console.log(context.conditions)
+
+})
+
 const tl = gsap.timeline({
     repeat: 0,
 })
