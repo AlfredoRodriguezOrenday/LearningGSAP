@@ -79,4 +79,4 @@ tl.to(nave,{y:'15vw', scale: 0.8, duration: 4})
 
 tl.to(planeta3,{ y: '45vw', x: '-139vw', scale: 0.3, opacity:0, duration: 2})
 
-tl.to(planeta3,{ y: '37vw', scale: 1.8, opacity:1, duration: 4})
+tl.to(planeta3,{ y: '32vw', scale: 1.8, opacity:1.4, duration: 4})
