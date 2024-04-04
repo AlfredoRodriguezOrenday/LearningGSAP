@@ -7,7 +7,7 @@ console.log("Hello world, my name is Alfredo and this is one of my proyects");
 
 ```
 
-> What is  GSAP?
+### What is  GSAP?
 
 GSAP is an animation library of javascript, with GSAP you could create webs more interactive with a lot functions, etc.
 
@@ -26,7 +26,7 @@ console.log("Hola mi nombre es Alfredo y este es uno de mis proyectos");
 
 ```
 
-> Que es GSAP?
+### Que es GSAP?
 
 GSAP es una libreria de animacion de javascript, con GSAP puedes crear web con  mas interactividad con una gran cantidad de funciones, etc.
 
