@@ -35,6 +35,29 @@
     text-align: center;
 }
 
+.btn{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    color: #fff;
+    background:#323232;
+    position: fixed;
+}
+.p{
+    font-family:'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+
+.carrera{
+    margin-top: 30%;
+    margin-left: -8%;
+}
+
+.cohete{
+    margin-top: 30%;
+    margin-left: 70%;
+}
+
 .Text-Bold{
     font-weight: bold;
 }
@@ -104,5 +127,14 @@
     .card_5{
         left:22%;
         top:90%;
+    }
+    .carrera{
+        margin-top: 30%;
+        margin-left: -25%;
+    }
+    
+    .cohete{
+        margin-top: 30%;
+        margin-left: 65%;
     }
 }

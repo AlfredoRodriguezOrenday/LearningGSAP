@@ -1,14 +1,3 @@
-let mm = gsap.matchMedia();
-
-mm.add({
-    isMobile: "(max-width: 412px)",
-    isDesktop: "(min-width: 703px)"
-}, (context) =>{
-    let {isMobile, isDesktop} = context.conditions;
-    console.log(context.conditions)
-
-})
-
 const tl = gsap.timeline({
     repeat: 0,
 })
@@ -41,5 +30,11 @@ tl.from('.card_4',{
 tl.from('.card_5',{
     duration: 2,
     y:'30vh',
+    ease: 'power3.inOut'
+}, '=-2')
+
+tl.from('.carrera',{
+    duration: 2,
+    x:'30vh',
     ease: 'power3.inOut'
 }, '=-2')
