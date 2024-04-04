@@ -32,6 +32,24 @@
     font-size: 3rem;
 }
 
+.btn{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    color: #fff;
+    background:#323232;
+    position: relative;
+}
+
+.inicio{
+    margin-top: -3%;
+    margin-left: 85%;
+}
+.p{
+    font-family:'Roboto', sans-serif;
+    font-size: 1.3em;
+}
+
 .contenedor__animacion{
     position: relative;
     height: 785vh;
