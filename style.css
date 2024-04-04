@@ -48,12 +48,12 @@
     font-size: 1.1em;
 }
 
-.carrera{
+.cohete{
     margin-top: 30%;
     margin-left: -8%;
 }
 
-.cohete{
+.carrera{
     margin-top: 30%;
     margin-left: 70%;
 }
@@ -128,12 +128,12 @@
         left:22%;
         top:90%;
     }
-    .carrera{
+    .cohete{
         margin-top: 30%;
         margin-left: -35%;
     }
     
-    .cohete{
+    .carrera{
         margin-top: 30%;
         margin-left: 75%;
     }

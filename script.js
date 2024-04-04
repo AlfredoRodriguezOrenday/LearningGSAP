@@ -33,13 +33,13 @@ tl.from('.card_5',{
     ease: 'power3.inOut'
 }, '=-2')
 
-tl.from('.carrera',{
+tl.from('.cohete',{
     duration: 2,
     x:'-45vh',
     ease: 'power3.inOut'
 }, '=-2')
 
-tl.from('.cohete',{
+tl.from('.carrera',{
     duration: 2,
     x:'45vh',
     ease: 'power3.inOut'
